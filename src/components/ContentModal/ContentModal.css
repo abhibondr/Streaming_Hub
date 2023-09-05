@@ -42,7 +42,7 @@
 }
 
 .ContentModal__title {
-  height: 10%;
+  height: 12%;
   font-size: 5vw;
   display: flex;
   align-items: center;
@@ -64,7 +64,7 @@
   display: none;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 600px) {
   .ContentModal__landscape {
     display: none;
   }
@@ -73,9 +73,10 @@
     width: 38%;
   }
   .ContentModal {
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 10px 0;
+    padding: 10px 10px;
   }
   .ContentModal__about {
     width: 58%;
