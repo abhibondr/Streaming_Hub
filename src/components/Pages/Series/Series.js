@@ -26,7 +26,12 @@ const Series = () => {
   }, [page, genreforURL]);
   return (
     <div>
-      <span className="pageTitle">Series</span>
+      <span
+        className="pageTitle"
+        style={{ color: "black", fontWeight: "bold" }}
+      >
+        Series
+      </span>
       <Genres
         type="tv"
         selectedGenres={selectedGenres}

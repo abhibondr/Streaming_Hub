@@ -29,27 +29,27 @@ export default function SimpleBottomNavigation() {
         width: "100%",
         position: "fixed",
         bottom: 0,
-        backgroundColor: "#2d313a",
+        backgroundColor: "#d8b4fe",
         zIndex: 100,
       }}
     >
       <BottomNavigationAction
-        style={{ color: "white" }}
+        style={{ color: "black", fontWeight: "bold" }}
         label="Trending"
         icon={<WhatshotIcon />}
       />
       <BottomNavigationAction
-        style={{ color: "white" }}
+        style={{ color: "black", fontWeight: "bold" }}
         label="Movies"
         icon={<MovieIcon />}
       />
       <BottomNavigationAction
-        style={{ color: "white" }}
+        style={{ color: "black", fontWeight: "bold" }}
         label="TV Series"
         icon={<TvIcon />}
       />
       <BottomNavigationAction
-        style={{ color: "white" }}
+        style={{ color: "black", fontWeight: "bold" }}
         label="Search"
         icon={<SearchIcon />}
       />

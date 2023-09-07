@@ -106,7 +106,7 @@ const Search = () => {
             label="Search"
             variant="filled"
             className="searchBox"
-            style={{ flex: 1, color: "white" }}
+            style={{ flex: 1, color: "black", fontWeight: "bold" }}
             onChange={(e) => setSearchText(e.target.value)}
           />
           <Button
@@ -124,9 +124,12 @@ const Search = () => {
         onChange={handleChange}
         aria-label="icon label tabs example"
       >
-        <Tab style={{ width: "50%", color: "white" }} label="Search Movies" />
         <Tab
-          style={{ width: "50%", color: "white" }}
+          style={{ width: "50%", color: "black", fontWeight: "bold" }}
+          label="Search Movies"
+        />
+        <Tab
+          style={{ width: "50%", color: "black", fontWeight: "bold" }}
           label="Search TV Series"
         />
       </Tabs>

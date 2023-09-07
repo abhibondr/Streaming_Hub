@@ -51,7 +51,7 @@ const Genres = ({
             label={genre.name}
             size="small"
             color="primary"
-            style={{ margin: 2, color: "white" }}
+            style={{ margin: 2, color: "black" }}
             onDelete={() => handleRemove(genre)}
           />
         ))}
@@ -62,7 +62,7 @@ const Genres = ({
             key={genre.id}
             label={genre.name}
             size="small"
-            style={{ margin: 2, color: "white" }}
+            style={{ margin: 2, color: "black", fontWeight: "bold" }}
             onClick={() => handleAdd(genre)}
           />
         ))}

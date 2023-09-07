@@ -4,7 +4,7 @@ import { ThemeProvider, createTheme } from "@mui/material/styles";
 
 const theme = createTheme({
   palette: {
-    mode: "dark",
+    mode: "light",
   },
 });
 
@@ -29,7 +29,7 @@ const CustomPagination = ({ setPage, numOfPages = 10 }) => {
           onChange={(e) => handlePageChange(e.target.textContent)}
           hidePrevButton
           hideNextButton
-          color="primary"
+          color="error"
         />
       </ThemeProvider>
     </div>
